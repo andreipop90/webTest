@@ -1,0 +1,29 @@
+# re-test
+Contains tests for APIs and Web pages (via selenium)
+
+
+### Scenarios for REST API testing
+Use mockbin in order to define test endpoints.
+See rest-assured samples: https://github.com/rest-assured/rest-assured/tree/master/examples/rest-assured-itest-java
+
+* Check API returns HTTP 200 [done]
+* Check API returns HTTP 401
+* Check API returns HTTP 404
+* Check list of APIs returns HTTP 200
+* Check API response is JSON
+* Check API response contains json properties x and y
+* Check API response contains nested properties x and y
+* Check API response contains x value in a list
+* Check API for existing header
+* Test APIs with GET, POST, DELETE and PUT
+* Test API with POST with included body
+
+### Scenarios for Selenium testing
+* Check page title is what expected [done]
+* Check page contains element by ID [done]
+* Check page contains element by tag and parent [done]
+* Check page contains element by class name [done]
+* Search in page for word X and check results that X exists [done]
+* Fill form via Selenium [done]
+* Add to cart two products and check afterwards cart contains those two [done]
+* Wait until elements appears [done]
